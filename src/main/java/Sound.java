@@ -43,9 +43,9 @@ public class Sound
       count++;
       n++;
     }
-    int[]newList = new int[samples.length-n];
+    int[]newList = new int[samples.length-count];
     int a = 0;
-    for(int i = count-1; i<samples.length;i++){
+    for(int i = count; i<samples.length;i++){
       newList[a] = samples[i];
       a++;
     }
