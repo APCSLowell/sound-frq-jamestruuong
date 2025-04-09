@@ -49,6 +49,6 @@ public class Sound
       newList[a] = samples[i];
       a++;
     }
-    sample = newList;
+    samples = newList;
   }
 }
